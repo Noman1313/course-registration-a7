@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useEffect, useState } from "react";
 
 
-const Card = ({handleClickButton}) => {
+const Card = ({handleClickButton, ToastContainer}) => {
     
     const [cards, setCards] = useState([]);
 
@@ -21,12 +21,13 @@ const Card = ({handleClickButton}) => {
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-lg">{data.course_name}</h2>
                         <p>{data.details}</p>
-                        <div className="flex gap-20 border-2 border-red-500">
+                        <div className="flex gap-20">
                             <p>Price : {data.price}</p>
                             <p>Credit : {data.credit}hr</p>
                         </div>
                         <div className="card-actions">
                         <button onClick={()=>handleClickButton(data)} className="btn btn-primary">Select</button>
+                        <ToastContainer />
                         </div>
                     </div>
                 </div>)
@@ -37,7 +38,8 @@ const Card = ({handleClickButton}) => {
 };
 
 Card.propTypes={
-    handleClickButton: PropTypes.func.isRequired
+    handleClickButton: PropTypes.func.isRequired,
+    ToastContainer: PropTypes.object.isRequired
 }
 
 export default Card;
