@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "cover_img": "https://i.ibb.co/80JwWB5/Rectangle-1.png",
+      "course_name": "Introduction to C Programming",
+      "credit": 3,
+      "price": 499,
+      "details": "Learn the basics of c programming with this introductory course."
+    },
+    {
+      "id": 2,
+      "cover_img": "https://i.ibb.co/S7S16xB/Rectangle-2.png",
+      "course_name": "Introduction to Algorithms",
+      "credit": 4,
+      "price": 799,
+      "details": "Explore the fundamentals of web development, including HTML, CSS, and JavaScript."
+    },
+    {
+      "id": 3,
+      "cover_img": "https://i.ibb.co/M2mrW1v/Rectangle-3.png",
+      "course_name": "Introduction to C++ for DSA",
+      "credit": 5,
+      "price": 399,
+      "details": "Master the essentials of data science, from data analysis to machine learning."
+    },
+    {
+      "id": 4,
+      "cover_img": "https://i.ibb.co/qFyNLF3/Rectangle-4.png",
+      "course_name": "Basic Data Structures",
+      "credit": 3,
+      "price": 500,
+      "details": "Learn the basics of digital marketing and strategies for online success."
+    },
+    {
+      "id": 5,
+      "cover_img": "https://i.ibb.co/KNQdsnC/Rectangle-5.png",
+      "course_name": "Introduction to OOP Python",
+      "credit": 4,
+      "price": 699,
+      "details": "Discover the world of graphic design and create stunning visuals."
+    },
+    {
+      "id": 6,
+      "cover_img": "https://i.ibb.co/rfDydtT/Rectangle-6.png",
+      "course_name": "Software Engineering",
+      "credit": 4,
+      "price": 349,
+      "details": "Build mobile apps for iOS and Android with this comprehensive course."
+    },
+    {
+      "id": 7,
+      "cover_img": "https://i.ibb.co/Bj7dtkZ/Rectangle-7.png",
+      "course_name": "AWS, Cloud Computing",
+      "credit": 5,
+      "price": 1199,
+      "details": "Dive deeper into machine learning algorithms and techniques."
+    },
+    {
+      "id": 8,
+      "cover_img": "https://i.ibb.co/Cm0gS6m/Rectangle-8.png",
+      "course_name": "Database (MySQL)",
+      "credit": 3,
+      "price": 599,
+      "details": "Learn how to manage your finances and make informed investment decisions."
+    },
+    {
+      "id": 9,
+      "cover_img": "https://i.ibb.co/r4R1thT/Rectangle-9.png",
+      "course_name": "Problem-Solving Part",
+      "credit": 2,
+      "price": 499,
+      "details": "Explore the ethical considerations in artificial intelligence and machine learning."
+    }
+  ]
+  
