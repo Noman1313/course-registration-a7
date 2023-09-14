@@ -1,9 +1,9 @@
-// import PropTypes from 'prop-types'; 
+import PropTypes from 'prop-types'; 
 import { useEffect, useState } from "react";
 
 
 const Card = ({handleClickButton}) => {
-
+    
     const [cards, setCards] = useState([]);
 
     useEffect(() => {
@@ -36,9 +36,8 @@ const Card = ({handleClickButton}) => {
     );
 };
 
-// Card.propTypes={
-//     handleClickButton: PropTypes.func.isRequired
-// }
-
+Card.propTypes={
+    handleClickButton: PropTypes.func.isRequired
+}
 
 export default Card;
