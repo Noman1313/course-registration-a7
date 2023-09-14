@@ -7,9 +7,9 @@ import Header from './components/Header/Header'
 function App() {
   const [cardsData, setCardsData] = useState([]);
 
-  // const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
-  // const [remaining, setRemaining] = useState(0);
+  const [remaining, setRemaining] = useState(0);
 
   const handleClickButton = (data) => {
     const isExist = cardsData.find(item => item.id === data.id)
@@ -25,14 +25,14 @@ function App() {
         count = count + item.credit
       })
 
-      // const totalRemaining = 20 - count
+      const totalRemaining = 20 - count
       if (count > 20) {
         return alert('taka nai')
       }
       else {
-        // setCount(count);
+        setCount(count);
 
-        // setRemaining(totalRemaining);
+        setRemaining(totalRemaining);
 
         setCardsData([...cardsData, data]);
       }
@@ -52,8 +52,8 @@ function App() {
         <div className='w-1/4 border-2 border-green-500'>
           <Cart
             cardsData={cardsData}
-            // count={count}
-            // remaining={remaining}
+            count={count}
+            remaining={remaining}
           ></Cart>
         </div>
 
