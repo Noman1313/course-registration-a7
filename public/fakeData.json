@@ -13,7 +13,7 @@
       "course_name": "Introduction to Algorithms",
       "credit": 4,
       "price": 799,
-      "details": "Explore the fundamentals of web development, including HTML, CSS, and JavaScript."
+      "details": "Explore the fundamentals of web development, HTML, CSS, and JavaScript."
     },
     {
       "id": 3,
@@ -69,7 +69,7 @@
       "course_name": "Problem-Solving Part",
       "credit": 2,
       "price": 499,
-      "details": "Explore the ethical considerations in artificial intelligence and machine learning."
+      "details": "Explore the ethical considerations in  intelligence and machine learning."
     }
   ]
   

@@ -11,7 +11,7 @@ function App() {
 
   const [count, setCount] = useState(0);
 
-  const [remaining, setRemaining] = useState(0);
+  const [remaining, setRemaining] = useState(20);
 
   const [coursePrice, setCoursePrice] = useState(0);
 

@@ -8,7 +8,7 @@ const Cart = ({ cardsData,count,remaining,coursePrice}) => {
             <h2 className='text-2xl font-bold text-center '>Course Name</h2>
             <h1 className='font-semibold'>
                 {
-                    cardsData.map(data => <li key={data.id}>{data.course_name}</li>)
+                    cardsData.map((data, index) => <p key={data.id}>{index+1}. {data.course_name}</p>)
                 }
             </h1>
             <hr className='w-[95%] border-2' />
