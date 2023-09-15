@@ -23,7 +23,7 @@ const Card = ({ handleClickButton, ToastContainer }) => {
                     <div className=" items-center text-center space-y-5">
                         <h2 className=" text-lg font-bold">{data.course_name}</h2>
                         <p>{data.details}</p>
-                        <div className="flex gap-14">
+                        <div className="flex justify-evenly gap-14">
                             <p className='flex items-center gap-3'><PiCurrencyDollarBold/> Price : {data.price}</p>
                             <p className='flex items-center gap-3'><BsBook /> Credit : {data.credit}hr</p>
                         </div>
